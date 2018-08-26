@@ -1,0 +1,40 @@
+@keyframes backgroundanimate{
+  0%   {filter: hue-rotate(0deg);}
+  100%   {filter: hue-rotate(360deg);}
+}
+html,body{
+  width:100%;
+  height:100%;
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+#container::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-image: linear-gradient(to right, red , yellow);
+  animation-name: backgroundanimate;
+  animation-duration:10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+#container{
+  width: 100%;
+  height: 100%;
+  top:0;
+  position: absolute;
+}
+#title{
+  color: rgb(0,255,255);
+  font-size: 700%;
+  margin: 17% auto;
+  text-align: center;
+  user-select: none;
+
+  animation-name: backgroundanimate;
+  animation-duration:10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
