@@ -33,7 +33,7 @@ html,body{
   margin: 17% auto;
   text-align: center;
   user-select: none;
-  background: -webkit-linear-gradient(to right, #00ffff, #0000ff);
+  background: -webkit-linear-gradient(left, #00ffff, #0000ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   
