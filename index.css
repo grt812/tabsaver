@@ -32,6 +32,9 @@ html,body{
   margin: 17% auto;
   text-align: center;
   user-select: none;
+  background: -webkit-linear-gradient(#00ffff, #0000ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
   animation-name: backgroundanimate;
   animation-duration:10s;
