@@ -27,11 +27,11 @@ html,body{
   left: 50%;
   width: 100%;
   transform: translate(-50%, -50%);
-  transition: transform 0.1s, color 0.25s;
+  transition: transform 0.25s, color 0.25s;
 }
 #title:hover{
   transform: translate(-50%, -50%) scale(1.15);
 }
 #title:active{
-  transform: translate(-50%, -50%) scale(1.05);
+  transform: translate(-50%, -50%) scale(0.9);
 }
